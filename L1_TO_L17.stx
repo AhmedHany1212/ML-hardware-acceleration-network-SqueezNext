@@ -1,0 +1,1356 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to F:/proj/L1_TO_L17_final/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.68 secs
+ 
+--> Parameter xsthdpdir set to F:/proj/L1_TO_L17_final/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.69 secs
+ 
+--> Reading design: L1_TO_L17.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\BIAS.v" into library work
+Parsing module <BIAS>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\mux_8_1_L9.v" into library work
+Parsing module <mux_8_1_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\mux_4_1_L9.v" into library work
+Parsing module <mux_4_1_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\mux_2_1_L9.v" into library work
+Parsing module <mux_2_1_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_24_8.v" into library work
+Parsing module <BIAS_layer9_24_8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_24_7.v" into library work
+Parsing module <BIAS_layer9_24_7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_24_6.v" into library work
+Parsing module <BIAS_layer9_24_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_24_5.v" into library work
+Parsing module <BIAS_layer9_24_5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_24_4.v" into library work
+Parsing module <BIAS_layer9_24_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_24_3.v" into library work
+Parsing module <BIAS_layer9_24_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_24_2.v" into library work
+Parsing module <BIAS_layer9_24_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_24_1.v" into library work
+Parsing module <BIAS_layer9_24_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_23_4.v" into library work
+Parsing module <BIAS_layer9_23_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_23_3.v" into library work
+Parsing module <BIAS_layer9_23_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_23_2.v" into library work
+Parsing module <BIAS_layer9_23_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_23_1.v" into library work
+Parsing module <BIAS_layer9_23_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_22_4.v" into library work
+Parsing module <BIAS_layer9_22_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_22_3.v" into library work
+Parsing module <BIAS_layer9_22_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_22_2.v" into library work
+Parsing module <BIAS_layer9_22_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_22_1.v" into library work
+Parsing module <BIAS_layer9_22_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_21_2.v" into library work
+Parsing module <BIAS_layer9_21_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_21_1.v" into library work
+Parsing module <BIAS_layer9_21_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_20_4.v" into library work
+Parsing module <BIAS_layer9_20_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_20_3.v" into library work
+Parsing module <BIAS_layer9_20_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_20_2.v" into library work
+Parsing module <BIAS_layer9_20_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_20_1.v" into library work
+Parsing module <BIAS_layer9_20_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_19_8.v" into library work
+Parsing module <BIAS_layer9_19_8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_19_7.v" into library work
+Parsing module <BIAS_layer9_19_7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_19_6.v" into library work
+Parsing module <BIAS_layer9_19_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_19_5.v" into library work
+Parsing module <BIAS_layer9_19_5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_19_4.v" into library work
+Parsing module <BIAS_layer9_19_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_19_3.v" into library work
+Parsing module <BIAS_layer9_19_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_19_2.v" into library work
+Parsing module <BIAS_layer9_19_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_19_1.v" into library work
+Parsing module <BIAS_layer9_19_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\accumlator.v" into library work
+Parsing module <accumlator>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\accumlator_4in.v" into library work
+Parsing module <accumlator_4in>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\adder_2in_FP.v" into library work
+Parsing module <adder_2in_FP>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\accumlator.v" into library work
+Parsing module <accumlator_L5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\relu.v" into library work
+Parsing module <relu>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\Reg_AT.v" into library work
+Parsing module <Reg_AT>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\mult_FP.v" into library work
+Parsing module <mult_FP>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\adder_3in_FP.v" into library work
+Parsing module <adder_3in_FP>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\accumlator.v" into library work
+Parsing module <accumlator_3in>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\mult_FP_L17.v" into library work
+Parsing module <mult_FP_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\Z_count_L9.v" into library work
+Parsing module <Z_count_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\y_count_L9.v" into library work
+Parsing module <y_count_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\x_count_L9.v" into library work
+Parsing module <x_count_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\u_count_L9.v" into library work
+Parsing module <u_count_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\temp_count_L9.v" into library work
+Parsing module <temp_count_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\R_count_L9.v" into library work
+Parsing module <R_count_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\Reg_xy_1_L9.v" into library work
+Parsing module <Reg_xy_1_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\Reg_u_L9.v" into library work
+Parsing module <Reg_u_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\Reg_k_L9.v" into library work
+Parsing module <Reg_k_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\Reg_j_L9.v" into library work
+Parsing module <Reg_j_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\MEM_1.v" into library work
+Parsing module <MEM_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\MEM.v" into library work
+Parsing module <MEM_L9_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\L_count_L9.v" into library work
+Parsing module <L_count_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\k_count_L9.v" into library work
+Parsing module <k_count_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\J_count_L9.v" into library work
+Parsing module <J_count_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BRAM_SKIP_address_L9.v" into library work
+Parsing module <BRAM_SKIP_address_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BRAM2_asddress_L9.v" into library work
+Parsing module <BRAM2_asddress_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BRAM2_addr_L9.v" into library work
+Parsing module <BRAM2_addr_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BRAM1_addr_L9.v" into library work
+Parsing module <BRAM1_addr_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_24.v" into library work
+Parsing module <BIAS_layer9_24>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_23.v" into library work
+Parsing module <BIAS_layer9_23>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_22.v" into library work
+Parsing module <BIAS_layer9_22>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_21.v" into library work
+Parsing module <BIAS_layer9_21>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_20.v" into library work
+Parsing module <BIAS_layer9_20>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9_19.v" into library work
+Parsing module <BIAS_layer9_19>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\adder_tree16in_L9.v" into library work
+Parsing module <adder_tree16in_L9>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\adder_tree16in_L9.v" Line 19: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\adder_tree16in_L9.v" Line 26: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\adder_tree16in_L9.v" Line 34: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\adder_tree16in_L9.v" Line 46: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\adder_tree16in_L9.v" Line 55: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\adder_tree16in_L9.v" Line 67: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\Z_count_L8.v" into library work
+Parsing module <Z_count_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\y_count_L8.v" into library work
+Parsing module <y_count_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\x_count_L8.v" into library work
+Parsing module <x_count_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\U_count_L8.v" into library work
+Parsing module <u_count_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\temp_count_L8.v" into library work
+Parsing module <temp_count_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\R_count_L8.v" into library work
+Parsing module <R_count_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\Reg_xy_1_L8.v" into library work
+Parsing module <Reg_xy_1_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\Reg_k_L8.v" into library work
+Parsing module <Reg_k_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\Reg_j_L8.v" into library work
+Parsing module <Reg_j_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\MEM_L8.v" into library work
+Parsing module <MEM_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\MEM2_L8.v" into library work
+Parsing module <MEM2_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\L_count_L8.v" into library work
+Parsing module <L_count_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\k_count_L8.v" into library work
+Parsing module <k_count_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\J_count_L8.v" into library work
+Parsing module <J_count_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\BRAM_SKIP_address_L8.v" into library work
+Parsing module <BRAM_SKIP_address_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\BRAM2_address_L8.v" into library work
+Parsing module <BRAM2_address_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\BRAM1_address_L8.v" into library work
+Parsing module <BRAM1_address_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\adder_tree16in.v" into library work
+Parsing module <adder_tree16in_L8>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\adder_tree16in.v" Line 19: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\adder_tree16in.v" Line 26: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\adder_tree16in.v" Line 34: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\adder_tree16in.v" Line 46: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\adder_tree16in.v" Line 55: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\adder_tree16in.v" Line 67: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\z_count.v" into library work
+Parsing module <Z_count_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\y_count.v" into library work
+Parsing module <y_count_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\x_count.v" into library work
+Parsing module <x_count_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\U_count.v" into library work
+Parsing module <u_count_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\temp_count.v" into library work
+Parsing module <temp_count_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\R_count.v" into library work
+Parsing module <R_count_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\Reg_u.v" into library work
+Parsing module <Reg_u_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\Reg_out.v" into library work
+Parsing module <Reg_xy_1_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\Reg_k.v" into library work
+Parsing module <Reg_k_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\Reg_j.v" into library work
+Parsing module <Reg_j_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\MEM2_2.v" into library work
+Parsing module <MEM2_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\MEM2.v" into library work
+Parsing module <MEM_skip_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\MEM.v" into library work
+Parsing module <MEM_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\L_count.v" into library work
+Parsing module <L_count_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\k_count.v" into library work
+Parsing module <k_count_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\J_count.v" into library work
+Parsing module <J_count_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BRAM_SKIP_Address.v" into library work
+Parsing module <BRAM_SKIP_address_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BRAM_out.v" into library work
+Parsing module <BRAM2_address_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BRAM1_addr.v" into library work
+Parsing module <BRAM1_addr_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\adder_tree16in.v" into library work
+Parsing module <adder_tree16in_L7>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\adder_tree16in.v" Line 19: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\adder_tree16in.v" Line 26: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\adder_tree16in.v" Line 34: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\adder_tree16in.v" Line 46: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\adder_tree16in.v" Line 55: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\adder_tree16in.v" Line 67: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer6\Z_count_Layer_6.v" into library work
+Parsing module <z_counter_Layer_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer6\y_count_Layer_6.v" into library work
+Parsing module <y_counter_Layer_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer6\X_count_Layer_6.v" into library work
+Parsing module <x_counter_Layer_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer6\temp_count_Layer_6.v" into library work
+Parsing module <temp_counter_Layer_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer6\L_count_Layer_6.v" into library work
+Parsing module <L_counter_Layer_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer6\BRAM2_out_Layer_6.v" into library work
+Parsing module <BRAM2_out_Layer_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer6\adder_tree4in_L6.v" into library work
+Parsing module <adder_tree4in_L6>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer6\adder_tree4in_L6.v" Line 22: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer6\adder_tree4in_L6.v" Line 29: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\z_counter.v" into library work
+Parsing module <z_counter>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\y_counter.v" into library work
+Parsing module <y_counter>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\x_counter.v" into library work
+Parsing module <x_counter>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\temp_counter.v" into library work
+Parsing module <temp_counter>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\R_counter.v" into library work
+Parsing module <R_counter>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\Reg_x.v" into library work
+Parsing module <Reg_x>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\Reg_j.v" into library work
+Parsing module <Reg_j>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\L_counter.v" into library work
+Parsing module <L_counter>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\j_counter.v" into library work
+Parsing module <j_counter>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\BRAM2_out.v" into library work
+Parsing module <BRAM2_out>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\Z_count.v" into library work
+Parsing module <z_counter_L4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\y_count.v" into library work
+Parsing module <y_counter_L4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\X_count.v" into library work
+Parsing module <x_counter_L4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\temp_count.v" into library work
+Parsing module <temp_counter_L4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\R_count.v" into library work
+Parsing module <R_counter_L4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\Reg_y.v" into library work
+Parsing module <Reg_y_L4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\Reg_j.v" into library work
+Parsing module <Reg_k_L4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\L_count.v" into library work
+Parsing module <L_counter_L4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\k_count.v" into library work
+Parsing module <k_counter_L4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\BRAM_out.v" into library work
+Parsing module <BRAM2_out_L4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\adder_tree4in.v" into library work
+Parsing module <adder_tree4in_L4>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\adder_tree4in.v" Line 21: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\adder_tree4in.v" Line 28: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\Z_count_Layer_3.v" into library work
+Parsing module <z_counter_Layer_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\y_count_Layer_3.v" into library work
+Parsing module <y_counter_Layer_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\X_count_Layer_3.v" into library work
+Parsing module <x_counter_Layer_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\temp_count_Layer_3.v" into library work
+Parsing module <temp_counter_L3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\L_count_Layer_3.v" into library work
+Parsing module <L_counter_Layer_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\BRAM2_out_Layer_3.v" into library work
+Parsing module <BRAM2_out_Layer_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\adder_tree4in.v" into library work
+Parsing module <adder_tree4in>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\adder_tree4in.v" Line 21: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\adder_tree4in.v" Line 28: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\Z_count_L2.v" into library work
+Parsing module <Z_count_L2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\y_count_L2.v" into library work
+Parsing module <y_count_L2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\x_count_L2.v" into library work
+Parsing module <x_count_L2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\u_count_L2.v" into library work
+Parsing module <u_count_L2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\temp_count_L2.v" into library work
+Parsing module <temp_count_L2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\R_count_L2.v" into library work
+Parsing module <R_count_L2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\Reg_out_L2.v" into library work
+Parsing module <Reg_xy_1_L2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\L_count_L2.v" into library work
+Parsing module <L_count_L2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\adder_tree8in.v" into library work
+Parsing module <adder_tree8in>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\adder_tree8in.v" Line 18: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\adder_tree8in.v" Line 26: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\adder_tree8in.v" Line 54: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\y_count_L1.v" into library work
+Parsing module <y_count_L1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\X_count_L1.v" into library work
+Parsing module <x_count_L1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\W_ROM.v" into library work
+Parsing module <W_ROM>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\temp_count_L1.v" into library work
+Parsing module <temp_count_L1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\R_count_L1.v" into library work
+Parsing module <R_count_L1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\MEM.v" into library work
+Parsing module <MEM>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\k_count_L1.v" into library work
+Parsing module <k_count_L1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\j_count_L1.v" into library work
+Parsing module <j_count_L1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\BRAM2_out_L1.v" into library work
+Parsing module <BRAM2_out_L1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\adder_tree3in.v" into library work
+Parsing module <adder_tree3in_L1>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\adder_tree3in.v" Line 17: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\adder_tree3in.v" Line 24: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\z_count_L17.v" into library work
+Parsing module <Z_count_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\y_count_L17.v" into library work
+Parsing module <y_count_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\x_count_L17.v" into library work
+Parsing module <x_count_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\U_count_L17.v" into library work
+Parsing module <u_count_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\temp_count_L17.v" into library work
+Parsing module <temp_count_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\R_count_L17.v" into library work
+Parsing module <R_count_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\Reg_xy_1_L17.v" into library work
+Parsing module <Reg_xy_1_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\Reg_u_L17.v" into library work
+Parsing module <Reg_u_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\Reg_k_L17.v" into library work
+Parsing module <Reg_k_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\Reg_j_L17.v" into library work
+Parsing module <Reg_j_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\mux_8_1_L17.v" into library work
+Parsing module <mux_8_1_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\mux_4_1_L17.v" into library work
+Parsing module <mux_4_1_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\mux_16_1_L17.v" into library work
+Parsing module <mux_16_1_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\MEM_L17.v" into library work
+Parsing module <MEM_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\L_count_L17.v" into library work
+Parsing module <L_count_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\k_count_L17.v" into library work
+Parsing module <k_count_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\J_count_L17.v" into library work
+Parsing module <J_count_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BRAM2_address_L17.v" into library work
+Parsing module <BRAM2_address_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BRAM1_addr_L17.v" into library work
+Parsing module <BRAM1_addr_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_65_9.v" into library work
+Parsing module <BIAS_layer17_65_9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_65_8.v" into library work
+Parsing module <BIAS_layer17_65_8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_65_7.v" into library work
+Parsing module <BIAS_layer17_65_7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_65_6.v" into library work
+Parsing module <BIAS_layer17_65_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_65_5.v" into library work
+Parsing module <BIAS_layer17_65_5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_65_4.v" into library work
+Parsing module <BIAS_layer17_65_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_65_3.v" into library work
+Parsing module <BIAS_layer17_65_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_65_2.v" into library work
+Parsing module <BIAS_layer17_65_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_65_16.v" into library work
+Parsing module <BIAS_layer17_65_16>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_65_15.v" into library work
+Parsing module <BIAS_layer17_65_15>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_65_14.v" into library work
+Parsing module <BIAS_layer17_65_14>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_65_13.v" into library work
+Parsing module <BIAS_layer17_65_13>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_65_12.v" into library work
+Parsing module <BIAS_layer17_65_12>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_65_11.v" into library work
+Parsing module <BIAS_layer17_65_11>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_65_10.v" into library work
+Parsing module <BIAS_layer17_65_10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_65_1.v" into library work
+Parsing module <BIAS_layer17_65_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_64_8.v" into library work
+Parsing module <BIAS_layer17_64_8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_64_7.v" into library work
+Parsing module <BIAS_layer17_64_7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_64_6.v" into library work
+Parsing module <BIAS_layer17_64_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_64_5.v" into library work
+Parsing module <BIAS_layer17_64_5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_64_4.v" into library work
+Parsing module <BIAS_layer17_64_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_64_3.v" into library work
+Parsing module <BIAS_layer17_64_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_64_2.v" into library work
+Parsing module <BIAS_layer17_64_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_64_1.v" into library work
+Parsing module <BIAS_layer17_64_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_63_8.v" into library work
+Parsing module <BIAS_layer17_63_8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_63_7.v" into library work
+Parsing module <BIAS_layer17_63_7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_63_6.v" into library work
+Parsing module <BIAS_layer17_63_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_63_5.v" into library work
+Parsing module <BIAS_layer17_63_5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_63_4.v" into library work
+Parsing module <BIAS_layer17_63_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_63_3.v" into library work
+Parsing module <BIAS_layer17_63_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_63_2.v" into library work
+Parsing module <BIAS_layer17_63_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_63_1.v" into library work
+Parsing module <BIAS_layer17_63_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_62_4.v" into library work
+Parsing module <BIAS_layer17_62_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_62_3.v" into library work
+Parsing module <BIAS_layer17_62_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_62_2.v" into library work
+Parsing module <BIAS_layer17_62_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_62_1.v" into library work
+Parsing module <BIAS_layer17_62_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_61_8.v" into library work
+Parsing module <BIAS_layer17_61_8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_61_7.v" into library work
+Parsing module <BIAS_layer17_61_7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_61_6.v" into library work
+Parsing module <BIAS_layer17_61_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_61_5.v" into library work
+Parsing module <BIAS_layer17_61_5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_61_4.v" into library work
+Parsing module <BIAS_layer17_61_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_61_3.v" into library work
+Parsing module <BIAS_layer17_61_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_61_2.v" into library work
+Parsing module <BIAS_layer17_61_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_61_1.v" into library work
+Parsing module <BIAS_layer17_61_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_60_9.v" into library work
+Parsing module <BIAS_layer17_60_9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_60_8.v" into library work
+Parsing module <BIAS_layer17_60_8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_60_7.v" into library work
+Parsing module <BIAS_layer17_60_7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_60_6.v" into library work
+Parsing module <BIAS_layer17_60_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_60_5.v" into library work
+Parsing module <BIAS_layer17_60_5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_60_4.v" into library work
+Parsing module <BIAS_layer17_60_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_60_3.v" into library work
+Parsing module <BIAS_layer17_60_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_60_2.v" into library work
+Parsing module <BIAS_layer17_60_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_60_16.v" into library work
+Parsing module <BIAS_layer17_60_16>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_60_15.v" into library work
+Parsing module <BIAS_layer17_60_15>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_60_14.v" into library work
+Parsing module <BIAS_layer17_60_14>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_60_13.v" into library work
+Parsing module <BIAS_layer17_60_13>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_60_12.v" into library work
+Parsing module <BIAS_layer17_60_12>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_60_11.v" into library work
+Parsing module <BIAS_layer17_60_11>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_60_10.v" into library work
+Parsing module <BIAS_layer17_60_10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17_60_1.v" into library work
+Parsing module <BIAS_layer17_60_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\adder_tree16in_L17.v" into library work
+Parsing module <adder_tree16in_L17>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\adder_tree16in_L17.v" Line 19: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\adder_tree16in_L17.v" Line 26: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\adder_tree16in_L17.v" Line 34: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\adder_tree16in_L17.v" Line 46: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\adder_tree16in_L17.v" Line 55: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\adder_tree16in_L17.v" Line 67: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_59_8.v" into library work
+Parsing module <BIAS_layer16_59_8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_59_7.v" into library work
+Parsing module <BIAS_layer16_59_7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_59_6.v" into library work
+Parsing module <BIAS_layer16_59_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_59_5.v" into library work
+Parsing module <BIAS_layer16_59_5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_59_4.v" into library work
+Parsing module <BIAS_layer16_59_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_59_3.v" into library work
+Parsing module <BIAS_layer16_59_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_59_2.v" into library work
+Parsing module <BIAS_layer16_59_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_59_1.v" into library work
+Parsing module <BIAS_layer16_59_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_58_4.v" into library work
+Parsing module <BIAS_layer16_58_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_58_3.v" into library work
+Parsing module <BIAS_layer16_58_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_58_2.v" into library work
+Parsing module <BIAS_layer16_58_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_58_1.v" into library work
+Parsing module <BIAS_layer16_58_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_57_4.v" into library work
+Parsing module <BIAS_layer16_57_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_57_3.v" into library work
+Parsing module <BIAS_layer16_57_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_57_2.v" into library work
+Parsing module <BIAS_layer16_57_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_57_1.v" into library work
+Parsing module <BIAS_layer16_57_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_56_2.v" into library work
+Parsing module <BIAS_layer16_56_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_56_1.v" into library work
+Parsing module <BIAS_layer16_56_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_55_4.v" into library work
+Parsing module <BIAS_layer16_55_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_55_3.v" into library work
+Parsing module <BIAS_layer16_55_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_55_2.v" into library work
+Parsing module <BIAS_layer16_55_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16_55_1.v" into library work
+Parsing module <BIAS_layer16_55_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_54_8.v" into library work
+Parsing module <BIAS_layer15_54_8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_54_7.v" into library work
+Parsing module <BIAS_layer15_54_7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_54_6.v" into library work
+Parsing module <BIAS_layer15_54_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_54_5.v" into library work
+Parsing module <BIAS_layer15_54_5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_54_4.v" into library work
+Parsing module <BIAS_layer15_54_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_54_3.v" into library work
+Parsing module <BIAS_layer15_54_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_54_2.v" into library work
+Parsing module <BIAS_layer15_54_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_54_1.v" into library work
+Parsing module <BIAS_layer15_54_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_53_4.v" into library work
+Parsing module <BIAS_layer15_53_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_53_3.v" into library work
+Parsing module <BIAS_layer15_53_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_53_2.v" into library work
+Parsing module <BIAS_layer15_53_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_53_1.v" into library work
+Parsing module <BIAS_layer15_53_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_52_4.v" into library work
+Parsing module <BIAS_layer15_52_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_52_3.v" into library work
+Parsing module <BIAS_layer15_52_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_52_2.v" into library work
+Parsing module <BIAS_layer15_52_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_52_1.v" into library work
+Parsing module <BIAS_layer15_52_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_51_2.v" into library work
+Parsing module <BIAS_layer15_51_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_51_1.v" into library work
+Parsing module <BIAS_layer15_51_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_50_4.v" into library work
+Parsing module <BIAS_layer15_50_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_50_3.v" into library work
+Parsing module <BIAS_layer15_50_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_50_2.v" into library work
+Parsing module <BIAS_layer15_50_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15_50_1.v" into library work
+Parsing module <BIAS_layer15_50_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_49_8.v" into library work
+Parsing module <BIAS_layer14_49_8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_49_7.v" into library work
+Parsing module <BIAS_layer14_49_7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_49_6.v" into library work
+Parsing module <BIAS_layer14_49_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_49_5.v" into library work
+Parsing module <BIAS_layer14_49_5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_49_4.v" into library work
+Parsing module <BIAS_layer14_49_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_49_3.v" into library work
+Parsing module <BIAS_layer14_49_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_49_2.v" into library work
+Parsing module <BIAS_layer14_49_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_49_1.v" into library work
+Parsing module <BIAS_layer14_49_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_48_4.v" into library work
+Parsing module <BIAS_layer14_48_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_48_3.v" into library work
+Parsing module <BIAS_layer14_48_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_48_2.v" into library work
+Parsing module <BIAS_layer14_48_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_48_1.v" into library work
+Parsing module <BIAS_layer14_48_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_47_4.v" into library work
+Parsing module <BIAS_layer14_47_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_47_3.v" into library work
+Parsing module <BIAS_layer14_47_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_47_2.v" into library work
+Parsing module <BIAS_layer14_47_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_47_1.v" into library work
+Parsing module <BIAS_layer14_47_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_46_2.v" into library work
+Parsing module <BIAS_layer14_46_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_46_1.v" into library work
+Parsing module <BIAS_layer14_46_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_45_4.v" into library work
+Parsing module <BIAS_layer14_45_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_45_3.v" into library work
+Parsing module <BIAS_layer14_45_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_45_2.v" into library work
+Parsing module <BIAS_layer14_45_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14_45_1.v" into library work
+Parsing module <BIAS_layer14_45_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_44_8.v" into library work
+Parsing module <BIAS_layer13_44_8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_44_7.v" into library work
+Parsing module <BIAS_layer13_44_7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_44_6.v" into library work
+Parsing module <BIAS_layer13_44_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_44_5.v" into library work
+Parsing module <BIAS_layer13_44_5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_44_4.v" into library work
+Parsing module <BIAS_layer13_44_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_44_3.v" into library work
+Parsing module <BIAS_layer13_44_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_44_2.v" into library work
+Parsing module <BIAS_layer13_44_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_44_1.v" into library work
+Parsing module <BIAS_layer13_44_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_43_4.v" into library work
+Parsing module <BIAS_layer13_43_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_43_3.v" into library work
+Parsing module <BIAS_layer13_43_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_43_2.v" into library work
+Parsing module <BIAS_layer13_43_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_43_1.v" into library work
+Parsing module <BIAS_layer13_43_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_42_4.v" into library work
+Parsing module <BIAS_layer13_42_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_42_3.v" into library work
+Parsing module <BIAS_layer13_42_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_42_2.v" into library work
+Parsing module <BIAS_layer13_42_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_42_1.v" into library work
+Parsing module <BIAS_layer13_42_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_41_2.v" into library work
+Parsing module <BIAS_layer13_41_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_41_1.v" into library work
+Parsing module <BIAS_layer13_41_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_40_4.v" into library work
+Parsing module <BIAS_layer13_40_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_40_3.v" into library work
+Parsing module <BIAS_layer13_40_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_40_2.v" into library work
+Parsing module <BIAS_layer13_40_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13_40_1.v" into library work
+Parsing module <BIAS_layer13_40_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_39_8.v" into library work
+Parsing module <BIAS_layer12_39_8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_39_7.v" into library work
+Parsing module <BIAS_layer12_39_7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_39_6.v" into library work
+Parsing module <BIAS_layer12_39_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_39_5.v" into library work
+Parsing module <BIAS_layer12_39_5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_39_4.v" into library work
+Parsing module <BIAS_layer12_39_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_39_3.v" into library work
+Parsing module <BIAS_layer12_39_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_39_2.v" into library work
+Parsing module <BIAS_layer12_39_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_39_1.v" into library work
+Parsing module <BIAS_layer12_39_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_38_4.v" into library work
+Parsing module <BIAS_layer12_38_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_38_3.v" into library work
+Parsing module <BIAS_layer12_38_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_38_2.v" into library work
+Parsing module <BIAS_layer12_38_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_38_1.v" into library work
+Parsing module <BIAS_layer12_38_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_37_4.v" into library work
+Parsing module <BIAS_layer12_37_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_37_3.v" into library work
+Parsing module <BIAS_layer12_37_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_37_2.v" into library work
+Parsing module <BIAS_layer12_37_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_37_1.v" into library work
+Parsing module <BIAS_layer12_37_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_36_2.v" into library work
+Parsing module <BIAS_layer12_36_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_36_1.v" into library work
+Parsing module <BIAS_layer12_36_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_35_4.v" into library work
+Parsing module <BIAS_layer12_35_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_35_3.v" into library work
+Parsing module <BIAS_layer12_35_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_35_2.v" into library work
+Parsing module <BIAS_layer12_35_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12_35_1.v" into library work
+Parsing module <BIAS_layer12_35_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\mux_8_1.v" into library work
+Parsing module <mux_8_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\mux_4_1.v" into library work
+Parsing module <mux_4_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\mux_2_1.v" into library work
+Parsing module <mux_2_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_34_8.v" into library work
+Parsing module <BIAS_layer11_34_8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_34_7.v" into library work
+Parsing module <BIAS_layer11_34_7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_34_6.v" into library work
+Parsing module <BIAS_layer11_34_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_34_5.v" into library work
+Parsing module <BIAS_layer11_34_5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_34_4.v" into library work
+Parsing module <BIAS_layer11_34_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_34_3.v" into library work
+Parsing module <BIAS_layer11_34_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_34_2.v" into library work
+Parsing module <BIAS_layer11_34_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_34_1.v" into library work
+Parsing module <BIAS_layer11_34_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_33_4.v" into library work
+Parsing module <BIAS_layer11_33_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_33_3.v" into library work
+Parsing module <BIAS_layer11_33_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_33_2.v" into library work
+Parsing module <BIAS_layer11_33_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_33_1.v" into library work
+Parsing module <BIAS_layer11_33_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_32_4.v" into library work
+Parsing module <BIAS_layer11_32_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_32_3.v" into library work
+Parsing module <BIAS_layer11_32_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_32_2.v" into library work
+Parsing module <BIAS_layer11_32_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_32_1.v" into library work
+Parsing module <BIAS_layer11_32_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_31_2.v" into library work
+Parsing module <BIAS_layer11_31_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_31_1.v" into library work
+Parsing module <BIAS_layer11_31_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_30_4.v" into library work
+Parsing module <BIAS_layer11_30_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_30_3.v" into library work
+Parsing module <BIAS_layer11_30_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_30_2.v" into library work
+Parsing module <BIAS_layer11_30_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11_30_1.v" into library work
+Parsing module <BIAS_layer11_30_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\mux_8_1_L10.v" into library work
+Parsing module <mux_8_1_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\mux_4_1_L10.v" into library work
+Parsing module <mux_4_1_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\mux_2_1_L10.v" into library work
+Parsing module <mux_2_1_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\MEM.v" into library work
+Parsing module <MEM_L11>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_29_8.v" into library work
+Parsing module <BIAS_layer10_29_8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_29_7.v" into library work
+Parsing module <BIAS_layer10_29_7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_29_6.v" into library work
+Parsing module <BIAS_layer10_29_6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_29_5.v" into library work
+Parsing module <BIAS_layer10_29_5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_29_4.v" into library work
+Parsing module <BIAS_layer10_29_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_29_3.v" into library work
+Parsing module <BIAS_layer10_29_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_29_2.v" into library work
+Parsing module <BIAS_layer10_29_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_29_1.v" into library work
+Parsing module <BIAS_layer10_29_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_28_4.v" into library work
+Parsing module <BIAS_layer10_28_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_28_3.v" into library work
+Parsing module <BIAS_layer10_28_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_28_2.v" into library work
+Parsing module <BIAS_layer10_28_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_28_1.v" into library work
+Parsing module <BIAS_layer10_28_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_27_4.v" into library work
+Parsing module <BIAS_layer10_27_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_27_3.v" into library work
+Parsing module <BIAS_layer10_27_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_27_2.v" into library work
+Parsing module <BIAS_layer10_27_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_27_1.v" into library work
+Parsing module <BIAS_layer10_27_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_26_2.v" into library work
+Parsing module <BIAS_layer10_26_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_26_1.v" into library work
+Parsing module <BIAS_layer10_26_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_25_4.v" into library work
+Parsing module <BIAS_layer10_25_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_25_3.v" into library work
+Parsing module <BIAS_layer10_25_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_25_2.v" into library work
+Parsing module <BIAS_layer10_25_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10_25_1.v" into library work
+Parsing module <BIAS_layer10_25_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\adder_tree16in_L10.v" into library work
+Parsing module <adder_tree16in_L10_L16>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\adder_tree16in_L10.v" Line 19: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\adder_tree16in_L10.v" Line 26: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\adder_tree16in_L10.v" Line 34: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\adder_tree16in_L10.v" Line 46: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\adder_tree16in_L10.v" Line 55: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\adder_tree16in_L10.v" Line 67: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\STALL_CONTROLLER\CLK_GATE_L2.v" into library work
+Parsing module <CLK_GATE_L2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\STALL_CONTROLLER\CLK_GATE_L1.v" into library work
+Parsing module <CLK_GATE_L1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\MEM_TRANS.v" into library work
+Parsing module <MEM_TRANS>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\M_A_T16x16_L9.v" into library work
+Parsing module <M_A_T16x16_L9>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\M_A_T16x16_L9.v" Line 14: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\mux_weight_6_1_L9.v" into library work
+Parsing module <mux_weight_6_1_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\mux_padding_2_1_L9.v" into library work
+Parsing module <mux_padding_2_1_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\mux_input_2_1_L9.v" into library work
+Parsing module <mux_input_2_1_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\CONV24.v" into library work
+Parsing module <CONV24>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\CONV23.v" into library work
+Parsing module <CONV23>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\CONV22.v" into library work
+Parsing module <CONV22>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\CONV21.v" into library work
+Parsing module <CONV21>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\CONV20.v" into library work
+Parsing module <CONV20>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\CONV19.v" into library work
+Parsing module <CONV19>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\cont_layer9.v" into library work
+Parsing module <cont_layer9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BRAM_L9_2.v" into library work
+Parsing module <BRAM_L9_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BRAM_L9_1.v" into library work
+Parsing module <BRAM_L9_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\BIAS_layer9.v" into library work
+Parsing module <BIAS_layer9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\M_A_T16x16.v" into library work
+Parsing module <M_A_T16x16_L8>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\M_A_T16x16.v" Line 14: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\mux_weight_5_1_L8.v" into library work
+Parsing module <mux_weight_5_1_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\mux_padding_2_1_L8.v" into library work
+Parsing module <mux_padding_2_1_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\mux_input_2_1_L8.v" into library work
+Parsing module <mux_input_2_1_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\mux_bias_L8.v" into library work
+Parsing module <mux_bias_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\mux_bias_5_1_L8.v" into library work
+Parsing module <mux_bias_5_1_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\mux4_1_L8.v" into library work
+Parsing module <mux4_1_L8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\MEM_L8_2.v" into library work
+Parsing module <MEM_L8_2>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\MEM_L8_2.v" Line 9: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\MEM_L8_1.v" into library work
+Parsing module <MEM_L8_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\CONV18.v" into library work
+Parsing module <CONV18>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\CONV17.v" into library work
+Parsing module <CONV17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\CONV16.v" into library work
+Parsing module <CONV16>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\CONV15.v" into library work
+Parsing module <CONV15>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\CONV14.v" into library work
+Parsing module <CONV14>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\cont_layer8.v" into library work
+Parsing module <cont_layer8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\BIAS_layer8_conv18_4.v" into library work
+Parsing module <BIAS_layer8_conv18_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\BIAS_layer8_conv18_3.v" into library work
+Parsing module <BIAS_layer8_conv18_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\BIAS_layer8_conv18_2.v" into library work
+Parsing module <BIAS_layer8_conv18_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\BIAS_layer8_conv18_1.v" into library work
+Parsing module <BIAS_layer8_conv18_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\BIAS_layer8_conv17_2.v" into library work
+Parsing module <BIAS_layer8_conv17_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\BIAS_layer8_conv17_1.v" into library work
+Parsing module <BIAS_layer8_conv17_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\BIAS_layer8_conv16_2.v" into library work
+Parsing module <BIAS_layer8_conv16_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\BIAS_layer8_conv16_1.v" into library work
+Parsing module <BIAS_layer8_conv16_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\BIAS_layer8_conv15.v" into library work
+Parsing module <BIAS_layer8_conv15>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\BIAS_layer8_conv14_2.v" into library work
+Parsing module <BIAS_layer8_conv14_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\BIAS_layer8_conv14_1.v" into library work
+Parsing module <BIAS_layer8_conv14_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\M_A_T16x16.v" into library work
+Parsing module <M_A_T16x16_L7>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\M_A_T16x16.v" Line 14: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\mux_padding_2_1.v" into library work
+Parsing module <mux_padding_2_1_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\mux_bias_5_1.v" into library work
+Parsing module <mux_bias_6_1_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\mux_bias.v" into library work
+Parsing module <mux_bias_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\mux_3x1.v" into library work
+Parsing module <mux_input_3_1_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\mux4_1_bias.v" into library work
+Parsing module <mux4_1_bias_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\MUX2_1.v" into library work
+Parsing module <mux_weight_6_1_L7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\MEM_L7_2.v" into library work
+Parsing module <MEM_L7_2>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\MEM_L7_2.v" Line 9: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\MEM_L1_2.v" into library work
+Parsing module <MEM_L7_skip>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\MEM_L1_2.v" Line 9: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\conv9.v" into library work
+Parsing module <conv9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\conv8.v" into library work
+Parsing module <conv8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\CONV13.v" into library work
+Parsing module <conv13>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\CONV12.v" into library work
+Parsing module <conv12>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\CONV11.v" into library work
+Parsing module <conv11>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\CONV10.v" into library work
+Parsing module <conv10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\cont_layer7.v" into library work
+Parsing module <cont_layer7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BRAM_layer7.v" into library work
+Parsing module <BRAM_layer7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BIAS_layer7_conv9_2.v" into library work
+Parsing module <BIAS_layer7_conv9_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BIAS_layer7_conv9_1.v" into library work
+Parsing module <BIAS_layer7_conv9_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BIAS_layer7_conv8_4.v" into library work
+Parsing module <BIAS_layer7_conv8_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BIAS_layer7_conv8_3.v" into library work
+Parsing module <BIAS_layer7_conv8_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BIAS_layer7_conv8_2.v" into library work
+Parsing module <BIAS_layer7_conv8_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BIAS_layer7_conv8_1.v" into library work
+Parsing module <BIAS_layer7_conv8_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BIAS_layer7_conv13_4.v" into library work
+Parsing module <BIAS_layer7_conv13_4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BIAS_layer7_conv13_3.v" into library work
+Parsing module <BIAS_layer7_conv13_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BIAS_layer7_conv13_2.v" into library work
+Parsing module <BIAS_layer7_conv13_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BIAS_layer7_conv13_1.v" into library work
+Parsing module <BIAS_layer7_conv13_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BIAS_layer7_conv12_2.v" into library work
+Parsing module <BIAS_layer7_conv12_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BIAS_layer7_conv12_1.v" into library work
+Parsing module <BIAS_layer7_conv12_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BIAS_layer7_conv11_2.v" into library work
+Parsing module <BIAS_layer7_conv11_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BIAS_layer7_conv11_1.v" into library work
+Parsing module <BIAS_layer7_conv11_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\BIAS_layer7_conv10.v" into library work
+Parsing module <BIAS_layer7_conv10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer6\M_A_T4x4_L6.v" into library work
+Parsing module <M_A_T4x4_L6>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer6\M_A_T4x4_L6.v" Line 15: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer6\in_skip_address.v" into library work
+Parsing module <in_skip_address>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer6\CONV7.v" into library work
+Parsing module <CONV7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer6\controller_layer6.v" into library work
+Parsing module <controller_layer6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer6\bias_rom.v" into library work
+Parsing module <bias_rom>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\M_A_T8x8.v" into library work
+Parsing module <M_A_T8x8>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\M_A_T8x8.v" Line 13: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\mux_bias.v" into library work
+Parsing module <mux_bias>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\mux2_1.v" into library work
+Parsing module <mux2_1_L5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\CONV6.v" into library work
+Parsing module <CONV6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\controller_layer5.v" into library work
+Parsing module <controller_layer5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\BIAS_layer5_2.v" into library work
+Parsing module <BIAS_layer5_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\BIAS_layer5.v" into library work
+Parsing module <BIAS_layer5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\M_A_T4x8.v" into library work
+Parsing module <M_A_T4x8_L4>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\M_A_T4x8.v" Line 14: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\mux2_1.v" into library work
+Parsing module <mux2_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\CONV5.v" into library work
+Parsing module <CONV5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\controller_layer4.v" into library work
+Parsing module <controller_layer4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\BIAS_layer4_1.v" into library work
+Parsing module <BIAS_layer4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\M_A_T4x4.v" into library work
+Parsing module <M_A_T4x4>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\M_A_T4x4.v" Line 14: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\mux4_1_Layer_3.v" into library work
+Parsing module <mux4_1_Layer_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\mux2_1_Layer_3.v" into library work
+Parsing module <mux2_1_Layer_3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\CONV4.v" into library work
+Parsing module <CONV4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\controller_layer3.v" into library work
+Parsing module <controller_layer3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\BIAS_LAYER3_2.v" into library work
+Parsing module <BIAS_layer3_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\BIAS_LAYER3_1.v" into library work
+Parsing module <BIAS_layer3_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\Reg_AT_u_L2.v" into library work
+Parsing module <Reg_AT_u_L2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\Reg_AT_L_L2.v" into library work
+Parsing module <Reg_AT_L_L2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\M_A_T16x16_L2.v" into library work
+Parsing module <M_A_T8x16_L2>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\M_A_T16x16_L2.v" Line 13: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\mux_padding_2_1.v" into library work
+Parsing module <MUX_padding_2X1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\mux_bram1_L2.v" into library work
+Parsing module <mux8_1_L2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\mux2_1_L2.v" into library work
+Parsing module <mux2_1_L2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\CONV3.v" into library work
+Parsing module <CONV3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\CONV2.v" into library work
+Parsing module <CONV2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\controller_L2.v" into library work
+Parsing module <controller_L2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\BIAS_layer2.v" into library work
+Parsing module <BIAS_L2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\M_A_T3x64_L1.v" into library work
+Parsing module <M_A_T3x64_L1>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\M_A_T3x64_L1.v" Line 19: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\CONV1.v" into library work
+Parsing module <CONV1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\controller_layer1.v" into library work
+Parsing module <controller_layer1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\BRAM_layer1.v" into library work
+Parsing module <BRAM_layer1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\BIAS_layer1.v" into library work
+Parsing module <BIAS_layer1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\M_A_T16x16_L17.v" into library work
+Parsing module <M_A_T16x16_L17>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\M_A_T16x16_L17.v" Line 14: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\MUX_weight_6X1_L17.v" into library work
+Parsing module <MUX_weight_6X1_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\mux_padding_2_1_L17.v" into library work
+Parsing module <MUX_padding_2X1_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\MUX_BRAM_2X1_L17.v" into library work
+Parsing module <MUX_BRAM_2X1_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\CONV65.v" into library work
+Parsing module <CONV65>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\CONV64.v" into library work
+Parsing module <CONV64>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\CONV63.v" into library work
+Parsing module <CONV63>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\CONV62.v" into library work
+Parsing module <CONV62>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\CONV61.v" into library work
+Parsing module <CONV61>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\CONV60.v" into library work
+Parsing module <CONV60>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\cont_layer17.v" into library work
+Parsing module <cont_layer17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BRAM_layer17.v" into library work
+Parsing module <BRAM_layer17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\BIAS_layer17.v" into library work
+Parsing module <BIAS_layer17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\CONV59.v" into library work
+Parsing module <CONV59>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\CONV58.v" into library work
+Parsing module <CONV58>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\CONV57.v" into library work
+Parsing module <CONV57>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\CONV56.v" into library work
+Parsing module <CONV56>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\CONV55.v" into library work
+Parsing module <CONV55>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\BIAS_layer16.v" into library work
+Parsing module <BIAS_layer16>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\CONV54.v" into library work
+Parsing module <CONV54>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\CONV53.v" into library work
+Parsing module <CONV53>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\CONV52.v" into library work
+Parsing module <CONV52>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\CONV51.v" into library work
+Parsing module <CONV51>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\CONV50.v" into library work
+Parsing module <CONV50>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\BIAS_layer15.v" into library work
+Parsing module <BIAS_layer15>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\CONV49.v" into library work
+Parsing module <CONV49>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\CONV48.v" into library work
+Parsing module <CONV48>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\CONV47.v" into library work
+Parsing module <CONV47>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\CONV46.v" into library work
+Parsing module <CONV46>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\CONV45.v" into library work
+Parsing module <CONV45>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\BIAS_layer14.v" into library work
+Parsing module <BIAS_layer14>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\CONV44.v" into library work
+Parsing module <CONV44>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\CONV43.v" into library work
+Parsing module <CONV43>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\CONV42.v" into library work
+Parsing module <CONV42>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\CONV41.v" into library work
+Parsing module <CONV41>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\CONV40.v" into library work
+Parsing module <CONV40>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\BIAS_layer13.v" into library work
+Parsing module <BIAS_layer13>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\CONV39.v" into library work
+Parsing module <CONV39>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\CONV38.v" into library work
+Parsing module <CONV38>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\CONV37.v" into library work
+Parsing module <CONV37>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\CONV36.v" into library work
+Parsing module <CONV36>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\CONV35.v" into library work
+Parsing module <CONV35>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\BIAS_layer12.v" into library work
+Parsing module <BIAS_layer12>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\mux_padding_2_1.v" into library work
+Parsing module <mux_padding_2_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\mux_input_2_1.v" into library work
+Parsing module <mux_input_2_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\MUX2_1.v" into library work
+Parsing module <mux_weight_6_1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\CONV34.v" into library work
+Parsing module <CONV34>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\CONV33.v" into library work
+Parsing module <CONV33>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\CONV32.v" into library work
+Parsing module <CONV32>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\CONV31.v" into library work
+Parsing module <CONV31>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\CONV30.v" into library work
+Parsing module <CONV30>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\BIAS_layer11.v" into library work
+Parsing module <BIAS_layer11>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\M_A_T16x16.v" into library work
+Parsing module <M_A_T16x16_L10_L16>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\M_A_T16x16.v" Line 14: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\mux_weight_6_1_L10.v" into library work
+Parsing module <mux_weight_6_1_L10_L16>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\mux_padding_2_1_L10 .v" into library work
+Parsing module <mux_padding_2_1_L10_L16>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\mux_input_2_1_L10.v" into library work
+Parsing module <mux_input_2_1_L10_L16>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\CONV29.v" into library work
+Parsing module <CONV29>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\CONV28.v" into library work
+Parsing module <CONV28>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\CONV27.v" into library work
+Parsing module <CONV27>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\CONV26.v" into library work
+Parsing module <CONV26>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\CONV25.v" into library work
+Parsing module <CONV25>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BRAM_layer10.v" into library work
+Parsing module <BRAM_layer11>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\BIAS_layer10.v" into library work
+Parsing module <BIAS_layer10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\controller_L10TOL16\Z_count_L10.v" into library work
+Parsing module <Z_count_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\controller_L10TOL16\y_count_L10.v" into library work
+Parsing module <y_count_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\controller_L10TOL16\x_count_L10.v" into library work
+Parsing module <x_count_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\controller_L10TOL16\u_count_L10.v" into library work
+Parsing module <u_count_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\controller_L10TOL16\temp_count_L10.v" into library work
+Parsing module <temp_count_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\controller_L10TOL16\R_count_L10.v" into library work
+Parsing module <R_count_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\controller_L10TOL16\Reg_xy_L10.v" into library work
+Parsing module <Reg_xy_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\controller_L10TOL16\Reg_L10.v" into library work
+Parsing module <Reg_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\controller_L10TOL16\L_count_L10.v" into library work
+Parsing module <L_count_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\controller_L10TOL16\k_count_L10.v" into library work
+Parsing module <k_count_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\controller_L10TOL16\J_count_L10.v" into library work
+Parsing module <J_count_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\controller_L10TOL16\BRAM_SKIP_address_L10.v" into library work
+Parsing module <BRAM_SKIP_address_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\controller_L10TOL16\BRAM2_addr_L10.v" into library work
+Parsing module <BRAM2_addr_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\controller_L10TOL16\BRAM1_addr_L10.v" into library work
+Parsing module <BRAM1_addr_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\controller_L10TOL16\BRAM1_address_L10.v" into library work
+Parsing module <BRAM1_address_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\STALL_CONTROLLER\STALL_Controller.v" into library work
+Parsing module <STALL_Controller>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\MEM_L2_L3.v" into library work
+Parsing module <MEM_L2_L3>.
+WARNING:HDLCompiler:248 - "F:\proj\L1_TO_L17_final\main\L1_TO_L9\MEM_L2_L3.v" Line 9: Block identifier is required on this block
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer9\layer_9.v" into library work
+Parsing module <layer9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer8\layer8.v" into library work
+Parsing module <layer8>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer7\layer_7.v" into library work
+Parsing module <layer7>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer6\Layer_6_top.v" into library work
+Parsing module <layer6>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer5\layer5.v" into library work
+Parsing module <layer5>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer4\layer4.v" into library work
+Parsing module <layer4>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer3\layer3.v" into library work
+Parsing module <layer3>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer2\layer_2.v" into library work
+Parsing module <layer_2>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\layer1\layer1.v" into library work
+Parsing module <layer1>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\TRANS_ADDR.v" into library work
+Parsing module <TRANS_ADDR>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\START_L10_L16.v" into library work
+Parsing module <START_L10_L16>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\STALL_CONTROLLER\STALL_Controller_L10.v" into library work
+Parsing module <STALL_Controller_L10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\REG_TRANS_ADDR.v" into library work
+Parsing module <REG_TRANS_ADDR>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer17\layer_17.v" into library work
+Parsing module <layer_17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer16\layer16.v" into library work
+Parsing module <layer16>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer15\layer15.v" into library work
+Parsing module <layer15>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer14\layer_14.v" into library work
+Parsing module <layer14>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer13\layer13.v" into library work
+Parsing module <layer13>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer12\layer_12.v" into library work
+Parsing module <layer12>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer11\layer_11.v" into library work
+Parsing module <layer11>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\layer10\layer10.v" into library work
+Parsing module <layer10>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\controller_L10TOL16\cont_layer10.v" into library work
+Parsing module <CONTROL_L10_TO_L16>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L9\L1_TO_L9.v" into library work
+Parsing module <L1_TO_L9>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L10_TO_L17\L10_TO_L16.v" into library work
+Parsing module <L10_TO_L17>.
+Analyzing Verilog file "F:\proj\L1_TO_L17_final\main\L1_TO_L17.v" into library work
+Parsing module <L1_TO_L17>.
+
+
+Total REAL time to Xst completion: 49.00 secs
+Total CPU time to Xst completion: 48.65 secs
+ 
+--> 
+
+Total memory usage is 4559220 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   56 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

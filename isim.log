@@ -1,0 +1,22 @@
+ISim log file
+Running: F:\L1_TO_L17_final\L1_TO_L17_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb F:/L1_TO_L17_final/L1_TO_L17_TB_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+Stopped at time : 40850 ns : File "F:/L1_TO_L17_final/main/L1_TO_L9/layer1/W_ROM.v" Line 11
+# run all
+Stopped at time : 331850 ns : File "F:/L1_TO_L17_final/main/L1_TO_L9/layer1/mult_FP.v" Line 10
+# run all
+Stopped at time : 402550 ns : File "F:/L1_TO_L17_final/main/L1_TO_L9/layer1/mult_FP.v" Line 11
+# run all
+Stopped at time : 450050 ns : File "F:/L1_TO_L17_final/main/L1_TO_L9/STALL_CONTROLLER/CLK_GATE_L1.v" Line 19
+# run all
+Stopped at time : 10666750 ns : File "F:/L1_TO_L17_final/main/L1_TO_L9/layer1/mult_FP.v" Line 12
+# run all
+Stopped at time : 13144750 ns : File "F:/L1_TO_L17_final/main/L10_TO_L17/layer17/L_count_L17.v" Line 15
